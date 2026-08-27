@@ -3,7 +3,7 @@ import { View, Text, FlatList, StyleSheet } from 'react-native';
 
 const MOCK_CONVERSATIONS = [
   { id: '1', name: 'Nam' },
-  { id: '2', name: 'Linh' },
+  { id: '2', name: 'Viet' },
 ];
 
 export default function ConversationList() {
