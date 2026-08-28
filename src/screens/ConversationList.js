@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, FlatList, StyleSheet } from 'react-native';
 
 const MOCK_CONVERSATIONS = [
-  { id: '1', name: 'Phat' },
+  { id: '1', name: 'Nguyen Phat' },
   { id: '2', name: 'Dat' },
 ];
 
