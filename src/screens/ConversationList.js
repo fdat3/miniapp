@@ -2,8 +2,8 @@ import React from 'react';
 import { View, Text, FlatList, StyleSheet } from 'react-native';
 
 const MOCK_CONVERSATIONS = [
-  { id: '1', name: 'Nam 2' },
-  { id: '2', name: 'Viet 1' },
+  { id: '1', name: 'Nam 3' },
+  { id: '2', name: 'Viet 4' },
 ];
 
 export default function ConversationList(props) {
