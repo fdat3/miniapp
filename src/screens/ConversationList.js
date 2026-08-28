@@ -2,11 +2,11 @@ import React from 'react';
 import { View, Text, FlatList, StyleSheet } from 'react-native';
 
 const MOCK_CONVERSATIONS = [
-  { id: '1', name: 'Nam' },
-  { id: '2', name: 'Viet' },
+  { id: '1', name: 'Nam 2' },
+  { id: '2', name: 'Viet 1' },
 ];
 
-export default function ConversationList() {
+export default function ConversationList(props) {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Chat</Text>

@@ -12,7 +12,7 @@ function ChatModule(props) {
     if (store.injectSaga) store.injectSaga('miniapp/chat', chatSaga);
   }, [store]);
 
-  return <ConversationList />;
+  return <ConversationList props/>;
 }
 
 export default ChatModule;
