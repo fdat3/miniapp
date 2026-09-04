@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 
 const MOCK_CONVERSATIONS = [
-  { id: '1', name: 'Nguyen Phat Ne', lastMessage: 'Hẹn gặp lúc 3h nhé', unread: 2 },
+  { id: '1', name: 'Nguyen Phat Ne1', lastMessage: 'Hẹn gặp lúc 3h nhé', unread: 2 },
   { id: '2', name: 'Dat', lastMessage: 'OTA chạy ngon rồi', unread: 0 },
   { id: '3', name: 'Linh Booking', lastMessage: 'Đơn phòng đã confirm', unread: 5 },
   { id: '4', name: 'Support Team', lastMessage: 'Bạn cần hỗ trợ gì thêm không?', unread: 0 },
